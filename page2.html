@@ -1,0 +1,101 @@
+<html>
+  <style>
+	html,body{
+	 overflow:hidden;
+	}
+	html,body,header{
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	}
+	header{
+	height:10%;
+	width:100%;
+	background-color:grey;
+	border:2px solid black;
+	}
+	#main{
+	width:100%;
+	overflow:hidden;
+	
+	}
+	#post{
+	width:60%;
+	height:100%;
+	margin-left:3%;
+	display:inline-block;
+	overflow-x:hidden;
+	overflow-y:auto;
+	border:none;
+	}
+	#fblock{
+	position:absolute;
+	top:13%;
+	right:3%;
+	width:30%;
+	height:40%;
+	border:5px solid black;
+	background:grey;
+	border-radius:10%;
+	}
+	#sblock{
+	position:absolute;
+	top:58%;
+	right:3%;
+	width:30%;
+	height:40%;
+	border:5px solid black;
+	background-color:grey;
+	border-radius:10%;
+	}
+	button{
+	background-color:darkred;
+	color:lightgrey;
+	border:1px solid black;
+	border-radius:10%;
+	height:10%;
+	}
+	ul{
+	float:left;
+	margin-left:30px;
+	}
+  </style>
+  <body>
+	<header>
+	</header>
+	<div id=main>	  
+	  <br>
+	  <iframe id=post name=i1 src=post1.html>
+		
+	  </iframe>	  
+	  
+		<div id=fblock>
+		
+		  <ul type=none><h3>service order</h3>
+			<li><a target=i1 href=post1.html>post 1</a></li>
+			<li><a target=i1 href=post2.html>post 2</a></li>
+			<li><a target=i1 href=post3.html>post 3</a></li>
+		  
+		  </ul>
+		  </div>	  
+	    <div id=sblock>
+		  <center>
+		  <h2>XYZ COMPANY</h2>
+		  <h3>leader in</h3>
+		  <button>Sign Up Now</button>
+		  <br>
+			learn more
+		  <hr>
+			
+			<ul type=none>submenu heading
+			  <li>link 1</li>
+			  <li>link 1</li>
+			  <li>link 1</li>
+			  <li>link 1</li>
+			</ul>
+		  </center>
+	    </div>
+	 
+	</div>
+  </body>
+</html>
